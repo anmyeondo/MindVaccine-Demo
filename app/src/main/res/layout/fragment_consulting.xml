@@ -5,12 +5,123 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:padding="40px">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="상담"
-        android:textSize="100dp"/>
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="107dp"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="107dp">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="101dp"
+                android:background="#FFFFFF">
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#FDFDFD"
+                    android:padding="40px"
+                    android:text="추천 상담사"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    tools:layout_editor_absoluteX="0dp"
+                    tools:layout_editor_absoluteY="41dp" />
+
+                <View
+                    android:id="@+id/divider"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="?android:attr/listDivider"
+                    android:backgroundTint="#989E9E"
+                    android:backgroundTintMode="src_over"
+                    tools:layout_editor_absoluteX="16dp"
+                    tools:layout_editor_absoluteY="94dp" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="22dp" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </FrameLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="vertical">
+
+        <SearchView
+            android:id="@+id/search"
+            android:layout_width="360dp"
+            android:layout_height="33dp"
+            android:layout_marginLeft="30px"
+            android:background="#DEEFED"
+            android:paddingLeft="5px" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/consultlayout1"
+            android:layout_width="match_parent"
+            android:layout_height="215dp"
+            android:layout_marginStart="20px"
+            android:layout_marginLeft="20px"
+            android:layout_marginTop="20px"
+            android:layout_marginEnd="20px"
+            android:background="@layout/consult_frame"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/textView4"
+                android:layout_width="343dp"
+                android:layout_height="11dp" />
+
+            <LinearLayout
+                android:id="@+id/minilayout1"
+                android:layout_width="86dp"
+                android:layout_height="25dp"
+                android:layout_marginLeft="25px"
+                android:background="@layout/consult_mainbutton" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/consultlayout2"
+            android:layout_width="match_parent"
+            android:layout_height="16dp"
+            android:orientation="vertical">
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/consultlayout3"
+            android:layout_width="match_parent"
+            android:layout_height="215dp"
+            android:layout_marginStart="20px"
+            android:layout_marginLeft="20px"
+            android:layout_marginTop="20px"
+            android:layout_marginEnd="20px"
+            android:background="@layout/consult_frame"
+            android:orientation="vertical">
+
+        </LinearLayout>
+    </LinearLayout>
 
 </LinearLayout>
