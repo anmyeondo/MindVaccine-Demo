@@ -5,7 +5,7 @@
     android:shape="rectangle">
 
     <!-- 테두리 내부 색상 설정 -->
-    <solid android:color="#fffff"/>
+    <solid android:color="@color/white"/>
     <corners
         android:bottomLeftRadius="20dp"
         android:bottomRightRadius="20dp"

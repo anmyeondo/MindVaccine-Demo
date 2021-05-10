@@ -6,6 +6,7 @@
 
     <!-- 테두리 내부 색상 설정 -->
     <solid android:color="#85CDB0" />
+
     <corners
         android:bottomLeftRadius="20dp"
         android:bottomRightRadius="20dp"
