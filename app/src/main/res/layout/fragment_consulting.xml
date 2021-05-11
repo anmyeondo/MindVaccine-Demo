@@ -59,7 +59,7 @@
                     <ImageView
                         android:id="@+id/imageView5"
                         android:layout_width="28dp"
-                        android:layout_height="23dp"
+                        android:layout_height="27dp"
                         android:layout_weight="1"
                         android:background="@color/white"
                         android:baselineAligned="false"
@@ -80,12 +80,12 @@
 
             <TextView
                 android:id="@+id/textView"
-                android:layout_width="212dp"
+                android:layout_width="232dp"
                 android:layout_height="match_parent"
                 android:layout_marginTop="30px"
                 android:background="@color/white"
                 android:fontFamily="casual"
-                android:paddingTop="45px"
+                android:paddingTop="65px"
                 android:text="추천 상담사"
                 android:textAppearance="@style/TextAppearance.AppCompat.Medium"
                 tools:layout_editor_absoluteX="0dp"
@@ -107,7 +107,7 @@
                     <TextView
                         android:id="@+id/textView16"
                         android:layout_width="match_parent"
-                        android:layout_height="21dp"
+                        android:layout_height="35dp"
                         android:layout_weight="1"
                         android:background="#FDFDFD"
                         android:padding="30px"
@@ -144,7 +144,7 @@
                     <TextView
                         android:id="@+id/textView19"
                         android:layout_width="match_parent"
-                        android:layout_height="21dp"
+                        android:layout_height="35dp"
                         android:layout_weight="1"
                         android:background="#FDFDFD"
                         android:padding="30px"
@@ -162,14 +162,13 @@
 
                     <TextView
                         android:id="@+id/textView18"
-                        android:layout_width="match_parent"
                         android:layout_height="21dp"
                         android:layout_weight="1"
                         android:background="#FDFDFD"
                         android:padding="30px"
                         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
                         tools:layout_editor_absoluteX="0dp"
-                        tools:layout_editor_absoluteY="41dp" />
+                        tools:layout_editor_absoluteY="41dp"  android:layout_width=""/>
                 </LinearLayout>
             </LinearLayout>
 
@@ -197,7 +196,7 @@
         <LinearLayout
             android:id="@+id/search"
             android:layout_width="342dp"
-            android:layout_height="match_parent"
+            android:layout_height="30dp"
             android:layout_marginLeft="30px"
             android:background="@layout/consult_selectbutton"
             android:paddingLeft="5px">
@@ -206,8 +205,8 @@
             <ImageView
                 android:id="@+id/imageView23"
                 android:layout_width="20dp"
-                android:layout_height="20dp"
-                android:layout_marginLeft="20dp"
+                android:layout_height="15dp"
+                android:layout_marginLeft="22dp"
                 app:srcCompat="@drawable/selectbar" />
 
             <TextView
@@ -220,12 +219,23 @@
                 android:textStyle="bold" />
 
             <TextView
+                android:id="@+id/textView32"
+                android:layout_width="45dp"
+                android:layout_height="20dp"
+                android:text=""
+                android:textColor="@color/cardview_dark_background"
+                android:textSize="11sp"
+
+                android:textStyle="bold" />
+
+            <TextView
                 android:id="@+id/textView25"
                 android:layout_width="300dp"
-                android:layout_height="40dp"
+                android:layout_height="42dp"
                 android:text="#스트레스 #불면증 #학업 #직장업무"
                 android:textColor="@color/cardview_dark_background"
-                android:textSize="15sp"
+                android:textSize="11sp"
+
                 android:textStyle="bold" />
 
         </LinearLayout>
@@ -240,7 +250,7 @@
         <LinearLayout
             android:id="@+id/consultlayout1"
             android:layout_width="match_parent"
-            android:layout_height="188dp"
+            android:layout_height="240dp"
             android:layout_marginStart="20px"
             android:layout_marginLeft="20px"
             android:layout_marginTop="20px"
@@ -249,43 +259,283 @@
             android:orientation="vertical">
 
             <LinearLayout
-                android:id="@+id/textView4"
-                android:layout_width="343dp"
-                android:layout_height="11dp"
-                android:background="@color/white" />
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
 
-            <LinearLayout
-                android:id="@+id/minilayout2"
-                android:layout_width="88dp"
-                android:layout_height="27dp"
-                android:layout_marginLeft="25px"
-                android:background="@layout/consult_mainbutton">
-
-                <ImageView
-                    android:id="@+id/imageView"
-                    android:layout_width="9dp"
-                    android:layout_height="14dp"
-                    android:layout_weight="1"
-                    app:srcCompat="@drawable/crown" />
-
-                <TextView
-                    android:id="@+id/textView9"
-                    android:layout_width="1.5dp"
+                <LinearLayout
+                    android:id="@+id/textView100"
+                    android:layout_width="match_parent"
                     android:layout_height="10dp"
-                    android:layout_weight="1"
-                    android:text=""
-                    android:textSize="10sp" />
+                    android:background="@color/white">
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/minilayout1"
+                    android:layout_width="88dp"
+                    android:layout_height="27.5dp"
+                    android:layout_marginLeft="52px"
+                    android:background="@layout/consult_mainbutton">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/imageView"
+                            android:layout_width="9dp"
+                            android:layout_height="14dp"
+                            android:layout_margin="0px"
+                            android:layout_weight="1"
+                            app:srcCompat="@drawable/crown" />
+
+                        <TextView
+                            android:id="@+id/textView9"
+                            android:layout_width="1.5dp"
+                            android:layout_height="10dp"
+                            android:layout_weight="1"
+                            android:text=""
+                            android:textSize="10sp" />
+
+                        <TextView
+                            android:id="@+id/textView8"
+                            android:layout_width="45dp"
+                            android:layout_height="26dp"
+                            android:layout_weight="1"
+                            android:fontFamily="sans-serif-black"
+                            android:text="베스트추천"
+                            android:textColor="@color/white"
+                            android:textSize="8.7sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/textView100"
+                    android:layout_width="343dp"
+                    android:layout_height="11dp"
+                    android:background="@color/white">
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/textView34"
+                                android:layout_width="12dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1" />
+
+                            <ImageView
+                                android:id="@+id/imageView35"
+                                android:layout_width="32dp"
+                                android:layout_height="14dp"
+                                android:layout_weight="1"
+                                app:srcCompat="@drawable/master" />
+
+
+                        </LinearLayout>
+
+                        <TextView
+                            android:id="@+id/textView41"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/textView42"
+                        android:layout_width="318dp"
+                        android:layout_height="30dp"
+                        android:text="마스터 MASTER"
+                        android:textColor="@color/black"
+                        android:textSize="10sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="31dp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_weight="1"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/textView22"
+                                android:layout_width="3dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1" />
+
+                            <ImageView
+                                android:id="@+id/imageView3"
+                                android:layout_width="32dp"
+                                android:layout_height="12dp"
+                                android:layout_weight="1"
+                                app:srcCompat="@drawable/star" />
+
+
+                        </LinearLayout>
+
+                        <TextView
+                            android:id="@+id/textView41"
+                            android:layout_width="match_parent"
+                            android:layout_height="3dp"
+                            android:layout_weight="1" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/textView42"
+                        android:layout_width="316dp"
+                        android:layout_height="20dp"
+                        android:text="4.9 (621)"
+                        android:textColor="#3E3C3C"
+                        android:textSize="10sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="26dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView42"
+                        android:layout_width="24dp"
+                        android:layout_height="20dp"
+                        android:textColor="#3E3C3C"
+                        android:textSize="10sp" />
+
+                    <TextView
+                        android:id="@+id/textView44"
+                        android:layout_width="345dp"
+                        android:layout_height="20dp"
+                        android:text="오늘도 용기 내주어 고마워요 !"
+                        android:textColor="#3E3C3C"
+                        android:textSize="9.5sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView57"
+                        android:layout_width="23.5dp"
+                        android:layout_height="20dp"
+                        android:textColor="#3E3C3C"
+                        android:textSize="10sp" />
+
+                    <TextView
+                        android:id="@+id/textView58"
+                        android:layout_width="345dp"
+                        android:layout_height="20dp"
+                        android:text="평균 응답 1시간 이내"
+                        android:textColor="#1EC180"
+                        android:textSize="9.5sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView40"
+                        android:layout_width="28dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1" />
+
+                    <LinearLayout
+                        android:layout_width="44dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textView21"
+                            android:layout_width="20dp"
+                            android:layout_height="25dp"
+                            android:layout_weight="1" />
+
+                        <ImageView
+                            android:id="@+id/imageView6"
+                            android:layout_width="20dp"
+                            android:layout_height="25dp"
+                            android:layout_weight="1"
+                            app:srcCompat="@drawable/phonecall" />
+
+                        <TextView
+                            android:id="@+id/textView37"
+                            android:layout_width="20dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="304dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textView38"
+                            android:layout_width="20dp"
+                            android:layout_height="25dp"
+                            android:layout_weight="1" />
+
+                        <ImageView
+                            android:id="@+id/imageView8"
+                            android:layout_width="20dp"
+                            android:layout_height="25dp"
+                            android:layout_weight="1"
+                            app:srcCompat="@drawable/messenger" />
+
+                        <TextView
+                            android:id="@+id/textView39"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" />
+                    </LinearLayout>
+
+                </LinearLayout>
 
                 <TextView
-                    android:id="@+id/textView8"
-                    android:layout_width="45dp"
-                    android:layout_height="27dp"
-                    android:layout_weight="1"
-                    android:fontFamily="sans-serif-black"
-                    android:text="베스트추천"
-                    android:textColor="@color/white"
-                    android:textSize="9sp"
-                    android:textStyle="bold" />
+                    android:id="@+id/textView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="16dp" />
+
 
             </LinearLayout>
 
@@ -297,12 +547,35 @@
             android:layout_height="16dp"
             android:orientation="vertical">
 
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="3dp"
+                        android:layout_weight="1"
+                        android:background="@color/white"
+                        android:orientation="horizontal" />
+
+                </LinearLayout>
+
+            </LinearLayout>
         </LinearLayout>
 
         <LinearLayout
             android:id="@+id/consultlayout3"
             android:layout_width="match_parent"
-            android:layout_height="194dp"
+            android:layout_height="240dp"
             android:layout_marginStart="20px"
             android:layout_marginLeft="20px"
             android:layout_marginTop="20px"
@@ -312,58 +585,284 @@
 
             <LinearLayout
                 android:id="@+id/textView20"
-                android:layout_width="343dp"
-                android:layout_height="11dp"
+                android:layout_width="349dp"
+                android:layout_height="12dp"
                 android:background="@color/white" />
 
             <LinearLayout
-                android:id="@+id/minilayout1"
+                android:id="@+id/LinearLayout"
                 android:layout_width="67dp"
-                android:layout_height="27dp"
-                android:layout_marginLeft="25px"
+                android:layout_height="27.3dp"
+                android:layout_marginLeft="46px"
                 android:background="@layout/consult_mainbutton2">
 
-                <TextView
-                    android:id="@+id/textView14"
-                    android:layout_width="7dp"
-                    android:layout_height="20dp"
+                <LinearLayout
+                    android:id="@+id/minilayout2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:text=""
-                    android:textColor="@color/cardview_dark_background"
-                    android:textSize="10sp"
-                    android:textStyle="bold" />
+                    android:orientation="horizontal">
 
-                <ImageView
-                    android:id="@+id/imageView2"
-                    android:layout_width="14dp"
-                    android:layout_height="14dp"
-                    android:layout_weight="1"
-                    app:srcCompat="@drawable/crown" />
+                    <TextView
+                        android:id="@+id/textView14"
+                        android:layout_width="7dp"
+                        android:layout_height="20dp"
+                        android:layout_weight="1"
+                        android:text=""
+                        android:textColor="@color/cardview_dark_background"
+                        android:textSize="10sp"
+                        android:textStyle="bold" />
 
-                <TextView
-                    android:id="@+id/textView12"
-                    android:layout_width="10dp"
-                    android:layout_height="20dp"
-                    android:layout_weight="1"
-                    android:text=""
-                    android:textColor="@color/cardview_dark_background"
-                    android:textSize="10sp"
-                    android:textStyle="bold" />
+                    <ImageView
+                        android:id="@+id/imageView2"
+                        android:layout_width="14dp"
+                        android:layout_height="14dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/crown" />
 
-                <TextView
-                    android:id="@+id/textView13"
-                    android:layout_width="30dp"
-                    android:layout_height="20dp"
-                    android:layout_weight="1"
-                    android:text="추천"
-                    android:textColor="@color/cardview_dark_background"
-                    android:textSize="9sp"
-                    android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/textView12"
+                        android:layout_width="5dp"
+                        android:layout_height="20dp"
+                        android:layout_weight="1"
+                        android:text=""
+                        android:textColor="@color/cardview_dark_background"
+                        android:textSize="10sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView13"
+                        android:layout_width="30dp"
+                        android:layout_height="25dp"
+                        android:layout_weight="1"
+                        android:text="추천"
+                        android:textColor="@color/cardview_dark_background"
+                        android:textSize="9sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
 
             </LinearLayout>
 
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="match_parent"
+                android:layout_height="16dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/textView28"
+                            android:layout_width="5dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" />
+
+                        <ImageView
+                            android:id="@+id/imageView7"
+                            android:layout_width="32dp"
+                            android:layout_height="16dp"
+                            android:layout_weight="1"
+                            app:srcCompat="@drawable/medal" />
+
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/textView29"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/textView30"
+                    android:layout_width="321dp"
+                    android:layout_height="30dp"
+                    android:text="전문  PRO"
+                    android:textColor="@color/black"
+                    android:textSize="10sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="31dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="16dp"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/textView52"
+                            android:layout_width="3dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" />
+
+                        <ImageView
+                            android:id="@+id/imageView53"
+                            android:layout_width="39dp"
+                            android:layout_height="12dp"
+                            android:layout_weight="1"
+                            app:srcCompat="@drawable/star" />
+
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/textView54"
+                        android:layout_width="match_parent"
+                        android:layout_height="3dp"
+                        android:layout_weight="1" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/textView55"
+                    android:layout_width="319dp"
+                    android:layout_height="20dp"
+                    android:text="4.6 (273)"
+                    android:textColor="#3E3C3C"
+                    android:textSize="10sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="26dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView46"
+                    android:layout_width="23dp"
+                    android:layout_height="20dp"
+                    android:textColor="#3E3C3C"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/textView47"
+                    android:layout_width="345dp"
+                    android:layout_height="20dp"
+                    android:text="같이 나누며 치유와 마음의 평온을.."
+                    android:textColor="#3E3C3C"
+                    android:textSize="9.5sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="18dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView42"
+                    android:layout_width="23dp"
+                    android:layout_height="20dp"
+                    android:textColor="#3E3C3C"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/textView44"
+                    android:layout_width="345dp"
+                    android:layout_height="20dp"
+                    android:text="평균 응답 1시간 20분 이내"
+                    android:textColor="#1EC180"
+                    android:textSize="9.5sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView40"
+                    android:layout_width="98dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <LinearLayout
+                    android:layout_width="116dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView21"
+                        android:layout_width="20dp"
+                        android:layout_height="25dp"
+                        android:layout_weight="1" />
+
+                    <ImageView
+                        android:id="@+id/imageView6"
+                        android:layout_width="20dp"
+                        android:layout_height="25dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/phonecall" />
+
+                    <TextView
+                        android:id="@+id/textView37"
+                        android:layout_width="20dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView38"
+                        android:layout_width="20dp"
+                        android:layout_height="25dp"
+                        android:layout_weight="1" />
+
+                    <ImageView
+                        android:id="@+id/imageView8"
+                        android:layout_width="20dp"
+                        android:layout_height="25dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/messenger" />
+
+                    <TextView
+                        android:id="@+id/textView39"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1" />
+                </LinearLayout>
+
+            </LinearLayout>
 
         </LinearLayout>
+
     </LinearLayout>
 
 </LinearLayout>
