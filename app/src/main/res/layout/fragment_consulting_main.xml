@@ -13,23 +13,12 @@
     <LinearLayout
         android:id="@+id/linearLayout1"
         android:layout_width="match_parent"
-        android:layout_height="120dp"
+        android:layout_height="72dp"
         android:orientation="vertical">
-
-        <TextView
-            android:id="@+id/textView1"
-            android:layout_width="match_parent"
-            android:layout_height="28dp"
-            android:background="@color/white"
-            android:padding="40px"
-            android:text=""
-            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-            tools:layout_editor_absoluteX="0dp"
-            tools:layout_editor_absoluteY="41dp" />
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="72dp"
+            android:layout_height="57dp"
             android:orientation="horizontal">
 
             <LinearLayout
@@ -41,7 +30,7 @@
                 <TextView
                     android:id="@+id/textView11"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="31dp"
                     android:layout_weight="1"
                     android:background="@color/white"
                     android:padding="30px"
@@ -82,10 +71,10 @@
                 android:id="@+id/textView"
                 android:layout_width="243dp"
                 android:layout_height="match_parent"
-                android:layout_marginTop="30px"
+                android:layout_marginTop="20px"
                 android:background="@color/white"
                 android:fontFamily="casual"
-                android:paddingTop="65px"
+                android:paddingTop="37px"
                 android:text="추천 상담사"
                 android:textAppearance="@style/TextAppearance.AppCompat.Medium"
                 tools:layout_editor_absoluteX="0dp"
@@ -136,7 +125,7 @@
                 </LinearLayout>
 
                 <LinearLayout
-                    android:layout_width="34dp"
+                    android:layout_width="24dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:orientation="vertical">
@@ -160,16 +149,6 @@
                         android:background="@color/white"
                         tools:srcCompat="@drawable/personicon" />
 
-                    <TextView
-                        android:id="@+id/textView18"
-                        android:layout_height="21dp"
-                        android:layout_weight="1"
-                        android:background="#FDFDFD"
-                        android:padding="30px"
-                        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-                        tools:layout_editor_absoluteX="0dp"
-                        tools:layout_editor_absoluteY="41dp"
-                        />
                 </LinearLayout>
             </LinearLayout>
 
@@ -190,15 +169,15 @@
 
     <LinearLayout
         android:id="@+id/linearLayout2"
-        android:layout_width="wrap_content"
+        android:layout_width="400dp"
         android:layout_height="40dp"
         android:orientation="vertical">
 
         <LinearLayout
             android:id="@+id/search"
-            android:layout_width="342dp"
+            android:layout_width="390dp"
             android:layout_height="30dp"
-            android:layout_marginLeft="30px"
+            android:layout_marginLeft="20px"
             android:background="@layout/consult_selectbutton"
             android:paddingLeft="5px">
 
@@ -250,7 +229,7 @@
 
         <LinearLayout
             android:id="@+id/consultlayout1"
-            android:layout_width="match_parent"
+            android:layout_width="347dp"
             android:layout_height="240dp"
             android:layout_marginStart="20px"
             android:layout_marginLeft="20px"
@@ -343,8 +322,8 @@
 
                             <TextView
                                 android:id="@+id/textView34"
-                                android:layout_width="12dp"
-                                android:layout_height="wrap_content"
+                                android:layout_width="19dp"
+                                android:layout_height="match_parent"
                                 android:layout_weight="1" />
 
                             <ImageView
@@ -366,7 +345,7 @@
 
                     <TextView
                         android:id="@+id/textView42"
-                        android:layout_width="318dp"
+                        android:layout_width="285dp"
                         android:layout_height="30dp"
                         android:text="마스터 MASTER"
                         android:textColor="@color/black"
@@ -393,7 +372,7 @@
 
                             <TextView
                                 android:id="@+id/textView22"
-                                android:layout_width="3dp"
+                                android:layout_width="18dp"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1" />
 
@@ -416,7 +395,7 @@
 
                     <TextView
                         android:id="@+id/textView42"
-                        android:layout_width="316dp"
+                        android:layout_width="284dp"
                         android:layout_height="20dp"
                         android:text="4.9 (621)"
                         android:textColor="#3E3C3C"
@@ -430,14 +409,14 @@
 
                     <TextView
                         android:id="@+id/textView42"
-                        android:layout_width="24dp"
+                        android:layout_width="26dp"
                         android:layout_height="20dp"
                         android:textColor="#3E3C3C"
                         android:textSize="10sp" />
 
                     <TextView
                         android:id="@+id/textView44"
-                        android:layout_width="345dp"
+                        android:layout_width="314dp"
                         android:layout_height="20dp"
                         android:text="오늘도 용기 내주어 고마워요 !"
                         android:textColor="#3E3C3C"
@@ -452,14 +431,14 @@
 
                     <TextView
                         android:id="@+id/textView57"
-                        android:layout_width="23.5dp"
+                        android:layout_width="27dp"
                         android:layout_height="20dp"
                         android:textColor="#3E3C3C"
                         android:textSize="10sp" />
 
                     <TextView
                         android:id="@+id/textView58"
-                        android:layout_width="345dp"
+                        android:layout_width="308dp"
                         android:layout_height="20dp"
                         android:text="평균 응답 1시간 이내"
                         android:textColor="#1EC180"
@@ -473,7 +452,7 @@
 
                     <TextView
                         android:id="@+id/textView40"
-                        android:layout_width="1dp"
+                        android:layout_width="22dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1" />
 
@@ -538,22 +517,22 @@
 
                         <TextView
                             android:id="@+id/textView91"
-                            android:layout_width="150dp"
-                            android:layout_height="76dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
                             android:layout_weight="1"
                             android:textColor="#3E3C3C"
                             android:textSize="10sp" />
 
                         <TextView
                             android:id="@+id/textView43"
-                            android:layout_width="130dp"
+                            android:layout_width="117dp"
                             android:layout_height="55dp"
                             android:layout_weight="1"
                             android:text="50,000 ~"
-                            android:textStyle="bold"
                             android:textAlignment="textEnd"
                             android:textColor="#3E3C3C"
-                            android:textSize="13sp" />
+                            android:textSize="13sp"
+                            android:textStyle="bold" />
 
                         <TextView
                             android:id="@+id/textView93"
@@ -592,7 +571,7 @@
 
                     <LinearLayout
                         android:layout_width="match_parent"
-                        android:layout_height="3dp"
+                        android:layout_height="1dp"
                         android:layout_weight="1"
                         android:background="@color/white"
                         android:orientation="horizontal" />
@@ -722,7 +701,7 @@
 
                 <TextView
                     android:id="@+id/textView30"
-                    android:layout_width="321dp"
+                    android:layout_width="285dp"
                     android:layout_height="30dp"
                     android:text="전문  PRO"
                     android:textColor="@color/black"
@@ -750,7 +729,7 @@
 
                         <TextView
                             android:id="@+id/textView52"
-                            android:layout_width="3dp"
+                            android:layout_width="24dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1" />
 
@@ -773,7 +752,7 @@
 
                 <TextView
                     android:id="@+id/textView55"
-                    android:layout_width="319dp"
+                    android:layout_width="289dp"
                     android:layout_height="20dp"
                     android:text="4.6 (273)"
                     android:textColor="#3E3C3C"
@@ -788,7 +767,7 @@
 
                 <TextView
                     android:id="@+id/textView46"
-                    android:layout_width="23dp"
+                    android:layout_width="27dp"
                     android:layout_height="20dp"
                     android:textColor="#3E3C3C"
                     android:textSize="10sp" />
@@ -810,7 +789,7 @@
 
                 <TextView
                     android:id="@+id/textView42"
-                    android:layout_width="23dp"
+                    android:layout_width="26dp"
                     android:layout_height="20dp"
                     android:textColor="#3E3C3C"
                     android:textSize="10sp" />
@@ -832,7 +811,7 @@
 
                 <TextView
                     android:id="@+id/textView40"
-                    android:layout_width="1dp"
+                    android:layout_width="18dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1" />
 
@@ -898,21 +877,21 @@
                     <TextView
                         android:id="@+id/textView91"
                         android:layout_width="150dp"
-                        android:layout_height="76dp"
+                        android:layout_height="match_parent"
                         android:layout_weight="1"
                         android:textColor="#3E3C3C"
                         android:textSize="10sp" />
 
                     <TextView
                         android:id="@+id/textView43"
-                        android:layout_width="130dp"
+                        android:layout_width="116dp"
                         android:layout_height="55dp"
                         android:layout_weight="1"
                         android:text="40,000 ~"
-                        android:textStyle="bold"
                         android:textAlignment="textEnd"
                         android:textColor="#3E3C3C"
-                        android:textSize="13sp" />
+                        android:textSize="13sp"
+                        android:textStyle="bold" />
 
                     <TextView
                         android:id="@+id/textView93"
