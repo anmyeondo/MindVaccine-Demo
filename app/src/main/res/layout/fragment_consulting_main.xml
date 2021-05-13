@@ -228,7 +228,7 @@
         android:orientation="vertical">
 
         <LinearLayout
-            android:id="@+id/consultlayout1"
+            android:id="@+id/consultlayout5"
             android:layout_width="347dp"
             android:layout_height="240dp"
             android:layout_marginStart="20px"
