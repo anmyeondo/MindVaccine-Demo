@@ -282,7 +282,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="115dp"
                 android:layout_marginLeft="130dp"
-                android:text="댓글 10" />
+                android:text="댓글 9" />
         </FrameLayout>
     </LinearLayout>
 </LinearLayout>
