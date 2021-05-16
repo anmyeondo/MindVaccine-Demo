@@ -2,25 +2,19 @@ package com.example.mindvaccine_demo;
 
 import android.content.Intent;
 import android.os.Bundle;
-
-import androidx.fragment.app.Fragment;
-import androidx.fragment.app.FragmentActivity;
-import androidx.fragment.app.FragmentTransaction;
-
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
-import android.widget.TextView;
 
-import com.google.android.material.floatingactionbutton.FloatingActionButton;
+import androidx.fragment.app.Fragment;
 
 /**
  * A simple {@link Fragment} subclass.
- * Use the {@link ConsultingFragment} factory method to
+ * Use the {@link Consulting2Fragment} factory method to
  * create an instance of this fragment.
  */
-public class ConsultingFragment extends Fragment {
+public class Consulting2Fragment extends Fragment {
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_PARAM1 = "param1";
@@ -30,7 +24,7 @@ public class ConsultingFragment extends Fragment {
     private String mParam1;
     private String mParam2;
 
-    public ConsultingFragment() {
+    public Consulting2Fragment() {
         // Required empty public constructor
     }
 
@@ -43,8 +37,8 @@ public class ConsultingFragment extends Fragment {
      * @return A new instance of fragment ChattingFragment.
      */
     // TODO: Rename and change types and number of parameters
-    public static ConsultingFragment newInstance(String param1, String param2) {
-        ConsultingFragment fragment = new ConsultingFragment();
+    public static Consulting2Fragment newInstance(String param1, String param2) {
+        Consulting2Fragment fragment = new Consulting2Fragment();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);
@@ -77,7 +71,8 @@ public class ConsultingFragment extends Fragment {
             public void onClick(View v) {
 
                 Intent intent = new Intent(getActivity(),MainActivity2.class);
-                startActivity(intent);
+                startActivityForResult(intent,100);
+
             }
         });
 

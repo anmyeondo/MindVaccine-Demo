@@ -30,7 +30,7 @@
                 <TextView
                     android:id="@+id/textView11"
                     android:layout_width="match_parent"
-                    android:layout_height="43dp"
+                    android:layout_height="29dp"
                     android:layout_weight="1"
                     android:background="@color/white"
                     android:padding="30px"
@@ -43,17 +43,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:background="@color/white"
-                    android:orientation="horizontal">
-
-                    <ImageView
-                        android:id="@+id/imageView5"
-                        android:layout_width="20dp"
-                        android:layout_height="15dp"
-                        android:layout_weight="1"
-                        android:background="@color/white"
-                        android:baselineAligned="false"
-                        app:srcCompat="@drawable/back_arrow2" />
-                </LinearLayout>
+                    android:orientation="horizontal"/>
 
                 <TextView
                     android:id="@+id/textView15"
@@ -151,7 +141,7 @@
 
         <LinearLayout
             android:id="@+id/consultlayout4"
-            android:layout_width="370dp"
+            android:layout_width="350dp"
             android:layout_height="334dp"
             android:layout_marginStart="20px"
             android:layout_marginLeft="20px"
@@ -472,7 +462,7 @@
 
         <LinearLayout
             android:id="@+id/consultlayout6"
-            android:layout_width="372dp"
+            android:layout_width="350dp"
             android:layout_height="146dp"
             android:layout_marginStart="20px"
             android:layout_marginLeft="20px"
@@ -639,7 +629,7 @@
                         android:layout_height="match_parent">
 
                         <TextView
-                            android:layout_width="275dp"
+                            android:layout_width="255dp"
                             android:layout_height="20dp" />
 
                         <Button
@@ -669,7 +659,7 @@
             android:orientation="vertical">
 
             <LinearLayout
-                android:layout_width="match_parent"
+                android:layout_width="340dp"
                 android:layout_height="145dp"
                 android:orientation="horizontal">
 
@@ -687,16 +677,10 @@
                         android:layout_width="match_parent"
                         android:layout_height="30dp">
 
-                        <ImageView
-                            android:id="@+id/imageView12"
-                            android:layout_width="72dp"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            app:srcCompat="@drawable/heart" />
-
                         <Button
-                            android:layout_width="291dp"
+                            android:layout_width="290dp"
                             android:layout_height="30dp"
+                            android:layout_marginLeft="33dp"
                             android:background="@layout/consult_selectbutton2"
                             android:text="상담권 선택하기"
                             android:textColor="@color/white"

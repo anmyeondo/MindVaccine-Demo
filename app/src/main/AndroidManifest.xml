@@ -9,10 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MindVaccineDemo">
-<!--        <meta-data-->
-<!--            android:nㅎame="com.google.android.actions"-->
-<!--            android:resource="@xml/actions" />-->
-
+        <activity android:name=".MainActivity2" />
+        <activity android:name=".Consulting2Fragment" /> <!-- <meta-data -->
+        <!-- android:nㅎame="com.google.android.actions" -->
+        <!-- android:resource="@xml/actions" /> -->
         <activity
             android:name=".MainActivity"
             android:exported="true">
