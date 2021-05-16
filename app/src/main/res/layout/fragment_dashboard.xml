@@ -62,7 +62,7 @@
     <LinearLayout
         android:id="@+id/linearLayout1"
         android:layout_width="match_parent"
-        android:layout_height="396dp"
+        android:layout_height="470dp"
         android:background="#EBEBED"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent">
@@ -159,15 +159,4 @@
 
 
     </LinearLayout>
-
-    <com.google.android.material.bottomnavigation.BottomNavigationView
-        android:id="@+id/nav_view"
-        android:layout_width="match_parent"
-        android:layout_height="78dp"
-        android:background="?android:attr/windowBackground"
-        app:itemIconTint="@color/black"
-        app:itemTextColor="@color/black"
-        app:menu="@menu/bottom_nav" />
-
-
 </LinearLayout>
