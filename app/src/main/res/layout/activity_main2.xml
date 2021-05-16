@@ -30,7 +30,7 @@
                 <TextView
                     android:id="@+id/textView11"
                     android:layout_width="match_parent"
-                    android:layout_height="43dp"
+                    android:layout_height="29dp"
                     android:layout_weight="1"
                     android:background="@color/white"
                     android:padding="30px"
@@ -43,17 +43,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:background="@color/white"
-                    android:orientation="horizontal">
-
-                    <ImageView
-                        android:id="@+id/imageView5"
-                        android:layout_width="20dp"
-                        android:layout_height="15dp"
-                        android:layout_weight="1"
-                        android:background="@color/white"
-                        android:baselineAligned="false"
-                        app:srcCompat="@drawable/back_arrow2" />
-                </LinearLayout>
+                    android:orientation="horizontal"/>
 
                 <TextView
                     android:id="@+id/textView15"
