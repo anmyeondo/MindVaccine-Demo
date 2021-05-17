@@ -4,21 +4,25 @@
     <item
         android:id="@+id/navigation_1"
         android:icon="@drawable/ic_drug_24dp"
+        android:enabled="true"
         android:title="대시보드" />
 
     <item
         android:id="@+id/navigation_2"
         android:icon="@drawable/ic_chat_24dp"
+        android:enabled="true"
         android:title="이야기방" />
 
     <item
         android:id="@+id/navigation_3"
         android:icon="@drawable/ic_bot_24dp"
+        android:enabled="true"
         android:title="챗봇" />
 
     <item
         android:id="@+id/navigation_4"
         android:icon="@drawable/ic_doctor_24dp"
+        android:enabled="true"
         android:title="상담하기" />
 
 </menu>
