@@ -10,164 +10,8 @@ android:gravity="center"
 android:orientation="vertical"
 android:padding="40px">
 
-<LinearLayout
-    android:id="@+id/linearLayout1"
-    android:layout_width="match_parent"
-    android:layout_height="72dp"
-    android:orientation="vertical">
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="57dp"
-        android:orientation="horizontal">
-
-        <LinearLayout
-            android:layout_width="15dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:orientation="vertical">
-
-            <TextView
-                android:id="@+id/textView11"
-                android:layout_width="match_parent"
-                android:layout_height="31dp"
-                android:layout_weight="1"
-                android:background="@color/white"
-                android:padding="30px"
-                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-                tools:layout_editor_absoluteX="0dp"
-                tools:layout_editor_absoluteY="41dp" />
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:background="@color/white"
-                android:orientation="horizontal">
-
-                <ImageView
-                    android:id="@+id/imageView5"
-                    android:layout_width="28dp"
-                    android:layout_height="27dp"
-                    android:layout_weight="1"
-                    android:background="@color/white"
-                    android:baselineAligned="false"
-                    app:srcCompat="@drawable/conslut_logo" />
-            </LinearLayout>
-
-            <TextView
-                android:id="@+id/textView15"
-                android:layout_width="match_parent"
-                android:layout_height="4dp"
-                android:layout_weight="1"
-                android:background="#FDFDFD"
-                android:padding="30px"
-                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-                tools:layout_editor_absoluteX="0dp"
-                tools:layout_editor_absoluteY="41dp" />
-        </LinearLayout>
-
-        <TextView
-            android:id="@+id/textView"
-            android:layout_width="243dp"
-            android:layout_height="match_parent"
-            android:layout_marginTop="20px"
-            android:background="@color/white"
-            android:fontFamily="casual"
-            android:paddingTop="37px"
-            android:text="추천 상담사"
-            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-            tools:layout_editor_absoluteX="0dp"
-            tools:layout_editor_absoluteY="41dp" />
-
-        <LinearLayout
-            android:layout_width="20dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:orientation="horizontal">
-
-            <LinearLayout
-                android:layout_width="24dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:background="@color/white"
-                android:orientation="vertical">
-
-                <TextView
-                    android:id="@+id/textView16"
-                    android:layout_width="match_parent"
-                    android:layout_height="35dp"
-                    android:layout_weight="1"
-                    android:background="#FDFDFD"
-                    android:padding="30px"
-                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-                    tools:layout_editor_absoluteX="0dp"
-                    tools:layout_editor_absoluteY="41dp" />
-
-                <ImageView
-                    android:id="@+id/imageView9"
-                    android:layout_width="21dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    tools:srcCompat="@drawable/searchicon" />
-
-                <TextView
-                    android:id="@+id/textView17"
-                    android:layout_width="match_parent"
-                    android:layout_height="21dp"
-                    android:layout_weight="1"
-                    android:background="#FDFDFD"
-                    android:padding="30px"
-                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-                    tools:layout_editor_absoluteX="0dp"
-                    tools:layout_editor_absoluteY="41dp" />
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="24dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:orientation="vertical">
-
-                <TextView
-                    android:id="@+id/textView19"
-                    android:layout_width="match_parent"
-                    android:layout_height="35dp"
-                    android:layout_weight="1"
-                    android:background="#FDFDFD"
-                    android:padding="30px"
-                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-                    tools:layout_editor_absoluteX="0dp"
-                    tools:layout_editor_absoluteY="41dp" />
-
-                <ImageView
-                    android:id="@+id/imageView10"
-                    android:layout_width="22dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:background="@color/white"
-                    tools:srcCompat="@drawable/personicon" />
-
-            </LinearLayout>
-        </LinearLayout>
-
-    </LinearLayout>
-
-    <View
-        android:id="@+id/divider"
-        android:layout_width="match_parent"
-        android:layout_height="2dp"
-        android:background="?android:attr/listDivider"
-        android:backgroundTint="#989E9E"
-        android:backgroundTintMode="src_over"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="94dp" />
-
-</LinearLayout>
-
-
-<LinearLayout
     android:id="@+id/linearLayout2"
     android:layout_width="400dp"
     android:layout_height="40dp"
@@ -244,14 +88,6 @@ android:padding="40px">
             android:orientation="vertical">
 
             <LinearLayout
-                android:id="@+id/textView100"
-                android:layout_width="match_parent"
-                android:layout_height="10dp"
-                android:background="@color/white">
-
-            </LinearLayout>
-
-            <LinearLayout
                 android:id="@+id/minilayout1"
                 android:layout_width="88dp"
                 android:layout_height="27.5dp"
@@ -295,7 +131,7 @@ android:padding="40px">
             </LinearLayout>
 
             <LinearLayout
-                android:id="@+id/textView100"
+                android:id="@+id/textView144"
                 android:layout_width="343dp"
                 android:layout_height="11dp"
                 android:background="@color/white">
@@ -337,14 +173,14 @@ android:padding="40px">
                     </LinearLayout>
 
                     <TextView
-                        android:id="@+id/textView41"
+                        android:id="@+id/textView145"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1" />
                 </LinearLayout>
 
                 <TextView
-                    android:id="@+id/textView42"
+                    android:id="@+id/textView146"
                     android:layout_width="285dp"
                     android:layout_height="30dp"
                     android:text="마스터 MASTER"
@@ -394,7 +230,7 @@ android:padding="40px">
                 </LinearLayout>
 
                 <TextView
-                    android:id="@+id/textView42"
+                    android:id="@+id/textView148"
                     android:layout_width="284dp"
                     android:layout_height="20dp"
                     android:text="4.9 (621)"
@@ -408,7 +244,7 @@ android:padding="40px">
                 android:orientation="horizontal">
 
                 <TextView
-                    android:id="@+id/textView42"
+                    android:id="@+id/textView140"
                     android:layout_width="26dp"
                     android:layout_height="20dp"
                     android:textColor="#3E3C3C"
@@ -529,7 +365,7 @@ android:padding="40px">
                     <TextView
                         android:id="@+id/textView23"
                         android:layout_width="match_parent"
-                        android:layout_height="40dp"
+                        android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:textColor="#3E3C3C"
                         android:textSize="10sp" />
@@ -549,13 +385,14 @@ android:padding="40px">
                             android:textSize="10sp" />
 
                         <Button
-                            android:id="@+id/detail_consult"
+                            android:id="@+id/detail_consult2"
                             android:layout_width="80dp"
                             android:layout_height="20dp"
                             android:layout_weight="1"
                             android:background="#6DCEAC"
                             android:text="자세히"
-                            android:textSize="10sp" />
+                            android:textSize="10sp"
+                            tools:ignore="DuplicateIds" />
 
                         <TextView
                             android:id="@+id/textView10"
@@ -623,12 +460,6 @@ android:padding="40px">
         android:layout_marginEnd="20px"
         android:background="@layout/consult_frame"
         android:orientation="vertical">
-
-        <LinearLayout
-            android:id="@+id/textView20"
-            android:layout_width="349dp"
-            android:layout_height="12dp"
-            android:background="@color/white" />
 
         <LinearLayout
             android:id="@+id/LinearLayout"
@@ -820,14 +651,14 @@ android:padding="40px">
             android:orientation="horizontal">
 
             <TextView
-                android:id="@+id/textView42"
+                android:id="@+id/textView117"
                 android:layout_width="26dp"
                 android:layout_height="20dp"
                 android:textColor="#3E3C3C"
                 android:textSize="10sp" />
 
             <TextView
-                android:id="@+id/textView44"
+                android:id="@+id/textView119"
                 android:layout_width="345dp"
                 android:layout_height="20dp"
                 android:text="평균 응답 1시간 20분 이내"
@@ -842,7 +673,7 @@ android:padding="40px">
             android:orientation="horizontal">
 
             <TextView
-                android:id="@+id/textView40"
+                android:id="@+id/textView118"
                 android:layout_width="22dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1" />
@@ -854,20 +685,20 @@ android:padding="40px">
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/textView21"
+                    android:id="@+id/textView121"
                     android:layout_width="20dp"
                     android:layout_height="25dp"
                     android:layout_weight="1" />
 
                 <ImageView
-                    android:id="@+id/imageView6"
+                    android:id="@+id/imageView122"
                     android:layout_width="20dp"
                     android:layout_height="25dp"
                     android:layout_weight="1"
                     app:srcCompat="@drawable/phonecall" />
 
                 <TextView
-                    android:id="@+id/textView37"
+                    android:id="@+id/textView123"
                     android:layout_width="20dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1" />
@@ -881,20 +712,20 @@ android:padding="40px">
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/textView38"
+                    android:id="@+id/textView124"
                     android:layout_width="20dp"
                     android:layout_height="25dp"
                     android:layout_weight="1" />
 
                 <ImageView
-                    android:id="@+id/imageView8"
+                    android:id="@+id/imageView125"
                     android:layout_width="20dp"
                     android:layout_height="25dp"
                     android:layout_weight="1"
                     app:srcCompat="@drawable/messenger" />
 
                 <TextView
-                    android:id="@+id/textView39"
+                    android:id="@+id/textView126"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1" />
@@ -907,7 +738,7 @@ android:padding="40px">
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/textView110"
+                    android:id="@+id/textView127"
                     android:layout_width="117dp"
                     android:layout_height="40dp"
                     android:layout_weight="1"
@@ -918,9 +749,9 @@ android:padding="40px">
                     android:textStyle="bold" />
 
                 <TextView
-                    android:id="@+id/textView23"
+                    android:id="@+id/textView128"
                     android:layout_width="match_parent"
-                    android:layout_height="40dp"
+                    android:layout_height="20dp"
                     android:layout_weight="1"
                     android:textColor="#3E3C3C"
                     android:textSize="10sp" />
@@ -932,7 +763,7 @@ android:padding="40px">
                     android:orientation="horizontal">
 
                     <TextView
-                        android:id="@+id/textView3"
+                        android:id="@+id/textView129"
                         android:layout_width="70dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
@@ -940,16 +771,17 @@ android:padding="40px">
                         android:textSize="10sp" />
 
                     <Button
-                        android:id="@+id/detail_consult"
+                        android:id="@+id/detail_consult3"
                         android:layout_width="80dp"
                         android:layout_height="20dp"
                         android:layout_weight="1"
                         android:background="#6DCEAC"
                         android:text="자세히"
-                        android:textSize="10sp" />
+                        android:textSize="10sp"
+                        />
 
                     <TextView
-                        android:id="@+id/textView10"
+                        android:id="@+id/textView130"
                         android:layout_width="30dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
@@ -958,7 +790,7 @@ android:padding="40px">
                 </LinearLayout>
 
                 <TextView
-                    android:id="@+id/textView111"
+                    android:id="@+id/textView131"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
