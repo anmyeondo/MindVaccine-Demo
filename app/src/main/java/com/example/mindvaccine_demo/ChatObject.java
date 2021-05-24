@@ -1,21 +1,21 @@
 package com.example.mindvaccine_demo;
 
 public class ChatObject {
-    private String name;
+    private Boolean isleft;
     private String chat;
 
 
-    public ChatObject(String name, String chat) {
-        this.name = name;
+    public ChatObject(Boolean isleft, String chat) {
+        this.isleft = isleft;
         this.chat = chat;
     }
 
-    public String getName() {
-        return name;
+    public Boolean getType() {
+        return isleft;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setType(String type) {
+        this.isleft = isleft;
     }
 
     public String getChat() {

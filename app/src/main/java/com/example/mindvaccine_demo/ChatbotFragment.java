@@ -69,7 +69,7 @@ public class ChatbotFragment extends Fragment {
         btnAddChat.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                adapter.putChat(new ChatObject("seed", editText.getText().toString()));
+                adapter.putChat(new ChatObject(Boolean.FALSE, editText.getText().toString()));
                 if (isLast) {
                     rv.smoothScrollToPosition(adapter.getItemCount());
                 }
@@ -83,11 +83,14 @@ public class ChatbotFragment extends Fragment {
             }
         });
 
+        getChatbotChating("test!!");
+
         return view;
     }
 
     // 테스트용
-    public String getChatting(){
-        return "보낼 채팅";
+    public String getChatbotChating(String chat) {
+        adapter.putChat(new ChatObject(Boolean.TRUE, chat));
+        return chat;
     }
 }
