@@ -64,7 +64,7 @@ public class Consulting2Fragment extends Fragment {
                              Bundle savedInstanceState) {
 
         ViewGroup rootView = (ViewGroup)inflater.inflate(R.layout.fragment_consult_main,container,false);
-        btn_move= rootView.findViewById(R.id.detail_consult);
+        btn_move= rootView.findViewById(R.id.detail_consult2);
         btn_move.setOnClickListener(new View.OnClickListener(){
 
             @Override

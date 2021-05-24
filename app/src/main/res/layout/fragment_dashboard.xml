@@ -10,12 +10,17 @@
     <LinearLayout
         android:id="@+id/linearLayout0"
         android:layout_width="match_parent"
-        android:layout_height="264dp"
-        android:background="#FF9052"
+        android:layout_height="296dp"
+        android:background="#F44336"
         android:orientation="vertical"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
         tools:layout_editor_absoluteX="0dp">
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="match_parent"
+            android:layout_height="40dp" />
 
         <TextView
             android:id="@+id/textView1"
@@ -26,6 +31,11 @@
             android:textColor="#FFFFFF"
             android:textSize="35sp" />
 
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
 
         <FrameLayout
             android:layout_width="match_parent"
@@ -44,7 +54,7 @@
             <ImageView
                 android:id="@+id/imageView4"
                 android:layout_width="match_parent"
-                android:layout_height="150dp"
+                android:layout_height="134dp"
                 android:textAlignment="center"
                 app:srcCompat="@drawable/circle2" />
         </FrameLayout>
@@ -82,19 +92,20 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:layout_margin="25dp"
+                android:layout_margin="40dp"
                 android:gravity="center"
                 android:text="부정적인 단어 사용 횟수"
-                android:textSize="25sp" />
+                android:textSize="17sp"
+                android:textStyle="@android:string/dialog_alert_title" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_gravity="right"
-                android:layout_margin="25dp"
+                android:layout_margin="40dp"
                 android:gravity="center"
                 android:text="86 회 "
-                android:textSize="25sp" />
+                android:textSize="20sp" />
         </FrameLayout>
 
         <FrameLayout
@@ -112,19 +123,19 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:layout_margin="25dp"
+                android:layout_margin="40dp"
                 android:gravity="center"
                 android:text="최근 메시지 사용 횟수 "
-                android:textSize="25sp" />
+                android:textSize="17sp" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_gravity="right"
-                android:layout_margin="25dp"
+                android:layout_margin="40dp"
                 android:gravity="center"
-                android:text="7 회"
-                android:textSize="25sp" />
+                android:text="7회"
+                android:textSize="20sp" />
         </FrameLayout>
 
         <FrameLayout
@@ -142,19 +153,19 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:layout_margin="25dp"
+                android:layout_margin="40dp"
                 android:gravity="center"
                 android:text="SNS 사용 시간"
-                android:textSize="25sp" />
+                android:textSize="17sp" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_gravity="right"
-                android:layout_margin="25dp"
+                android:layout_margin="40dp"
                 android:gravity="center"
-                android:text="4 시간 24 분"
-                android:textSize="25sp" />
+                android:text="4시간 24분"
+                android:textSize="20sp" />
         </FrameLayout>
 
 
