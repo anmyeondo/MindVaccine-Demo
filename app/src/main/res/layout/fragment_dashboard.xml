@@ -26,7 +26,7 @@
             android:id="@+id/textView1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="warning"
+            android:text="warning !"
             android:textAlignment="center"
             android:textColor="#FFFFFF"
             android:textSize="35sp" />
@@ -79,14 +79,14 @@
 
         <FrameLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="105dp">
 
             <TextView
                 android:id="@+id/box1"
                 android:layout_width="match_parent"
-                android:layout_height="70dp"
+                android:layout_height="65dp"
                 android:layout_margin="20dp"
-                android:background="#FFFFFF"
+                android:background="@layout/consult_mainbutton2"
                 android:textColor="#FFFFFF" />
 
             <TextView
@@ -95,8 +95,8 @@
                 android:layout_margin="40dp"
                 android:gravity="center"
                 android:text="부정적인 단어 사용 횟수"
-                android:textSize="17sp"
-                />
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textSize="17sp" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -110,14 +110,14 @@
 
         <FrameLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="105dp">
 
             <TextView
                 android:id="@+id/box2"
                 android:layout_width="match_parent"
-                android:layout_height="70dp"
+                android:layout_height="65dp"
                 android:layout_margin="20dp"
-                android:background="#FFFFFF"
+                android:background="@layout/consult_mainbutton2"
                 android:textColor="#FFFFFF" />
 
             <TextView
@@ -126,6 +126,7 @@
                 android:layout_margin="40dp"
                 android:gravity="center"
                 android:text="최근 메시지 사용 횟수 "
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
                 android:textSize="17sp" />
 
             <TextView
@@ -140,14 +141,14 @@
 
         <FrameLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="105dp">
 
             <TextView
                 android:id="@+id/box3"
                 android:layout_width="match_parent"
-                android:layout_height="70dp"
+                android:layout_height="65dp"
                 android:layout_margin="20dp"
-                android:background="#FFFFFF"
+                android:background="@layout/consult_mainbutton2"
                 android:textColor="#FFFFFF" />
 
             <TextView
@@ -156,6 +157,7 @@
                 android:layout_margin="40dp"
                 android:gravity="center"
                 android:text="SNS 사용 시간"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
                 android:textSize="17sp" />
 
             <TextView
