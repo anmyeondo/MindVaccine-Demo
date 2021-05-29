@@ -50,37 +50,41 @@
                 android:layout_width="80dp"
                 android:layout_height="80dp"
                 android:layout_margin="5dp"
-                app:srcCompat="@drawable/cat1" />
+                app:srcCompat="@drawable/profile" />
 
             <TextView
                 android:id="@+id/textView1"
                 android:layout_width="75dp"
                 android:layout_height="20dp"
-                android:layout_marginLeft="14dp"
-                android:layout_marginTop="85dp"
-                android:text="떼껄룩 3호" />
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="90dp"
+                android:text="떼껄룩 3호"
+                android:textColor="#85CDB0"
+                android:textSize="12sp"
+                android:textStyle="bold"/>
 
             <TextView
                 android:id="@+id/title1"
                 android:layout_width="200dp"
                 android:layout_height="30dp"
-                android:layout_marginLeft="93dp"
+                android:layout_marginLeft="100dp"
                 android:layout_marginTop="8dp"
-                android:text="과제가 하기 너무 싫어요"
-                android:textSize="16dp"
-                android:textStyle="bold" />
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:text="과제가 하기 너무 싫어요"/>
 
             <TextView
                 android:id="@+id/content1"
                 android:layout_width="200dp"
                 android:layout_height="70dp"
-                android:layout_marginLeft="93dp"
+                android:layout_marginLeft="100dp"
                 android:layout_marginTop="40dp"
-                android:text="할게 너무 많은데 과제가 자꾸 복사가 되요 어떻게 해야하죠?" />
+                android:textSize="12sp"
+                android:text="할게 너무 많은데 과제가 자꾸 복사가 되네요....어떻게 해야하죠?" />
 
             <View
                 android:layout_width="320dp"
-                android:layout_height="2dp"
+                android:layout_height="1dp"
                 android:layout_marginTop="110dp"
                 android:background="#5A6976" />
 
@@ -128,37 +132,41 @@
                 android:layout_width="80dp"
                 android:layout_height="80dp"
                 android:layout_margin="5dp"
-                app:srcCompat="@drawable/cat2" />
+                app:srcCompat="@drawable/user" />
 
             <TextView
                 android:id="@+id/textView2"
-                android:layout_width="wrap_content"
+                android:layout_width="75dp"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="14dp"
-                android:layout_marginTop="85dp"
-                android:text="떼껄룩 7호" />
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="90dp"
+                android:text="멘붕자 7호"
+                android:textColor="#85CDB0"
+                android:textSize="12sp"
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/title2"
                 android:layout_width="200dp"
                 android:layout_height="30dp"
-                android:layout_marginLeft="93dp"
+                android:layout_marginLeft="100dp"
                 android:layout_marginTop="8dp"
-                android:text="요즘 삶이 힘드네"
-                android:textSize="16dp"
+                android:text="아무것도 하고 싶지 않아요"
+                android:textSize="12sp"
                 android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/content2"
                 android:layout_width="200dp"
                 android:layout_height="70dp"
-                android:layout_marginLeft="93dp"
+                android:layout_marginLeft="100dp"
                 android:layout_marginTop="40dp"
-                android:text="오늘 하루 쯤은 놀아도 되겠지.... " />
+                android:textSize="11sp"
+                android:text="오늘 하루 쯤은 그냥 안하고 막 놀아도 되겠지....내인생 어차피 망했는데 그지? " />
 
             <View
                 android:layout_width="320dp"
-                android:layout_height="2dp"
+                android:layout_height="1dp"
                 android:layout_marginTop="110dp"
                 android:background="#5A6976" />
 
@@ -206,37 +214,42 @@
                 android:layout_width="80dp"
                 android:layout_height="80dp"
                 android:layout_margin="5dp"
-                app:srcCompat="@drawable/cat3" />
+                app:srcCompat="@drawable/man" />
 
             <TextView
                 android:id="@+id/textView3"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="14dp"
-                android:layout_marginTop="85dp"
-                android:text="떼껄룩 2호" />
+                android:layout_width="75dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="90dp"
+                android:text="미미 2호"
+                android:textColor="#85CDB0"
+                android:textSize="12sp"
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/title3"
                 android:layout_width="200dp"
                 android:layout_height="30dp"
-                android:layout_marginLeft="93dp"
+                android:layout_marginLeft="100dp"
                 android:layout_marginTop="8dp"
-                android:text="코인을 시작했습니다."
-                android:textSize="16dp"
-                android:textStyle="bold" />
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:text="얼떨결에 코인을 시작했어"
+                />
 
             <TextView
                 android:id="@+id/content3"
                 android:layout_width="200dp"
                 android:layout_height="70dp"
-                android:layout_marginLeft="93dp"
+                android:layout_marginLeft="100dp"
                 android:layout_marginTop="40dp"
-                android:text="일론 머스크가 제 돈을 뺏어 갔어요...." />
+                android:textSize="11sp"
+                android:text="일론 머스크가 제 소중한 돈을 뺏어 갔어요..... 살려주세요 어떡하죠 저 이제?" />
 
             <View
                 android:layout_width="320dp"
-                android:layout_height="2dp"
+                android:layout_height="1dp"
                 android:layout_marginTop="110dp"
                 android:background="#5A6976" />
 

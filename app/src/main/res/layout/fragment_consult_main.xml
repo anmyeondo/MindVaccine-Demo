@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/main_col"
+    android:background="#85CDB0"
     android:gravity="center"
     android:orientation="vertical"
     android:padding="40px">
@@ -22,7 +22,7 @@
             android:layout_width="390dp"
             android:layout_height="30dp"
             android:layout_marginLeft="20px"
-            android:background="#D3F6D4"
+            android:background="@layout/consult_mainbutton2"
             android:paddingLeft="5px">
 
 
@@ -31,7 +31,7 @@
                 android:layout_width="20dp"
                 android:layout_height="15dp"
                 android:layout_marginLeft="22dp"
-                android:layout_marginTop="7dp"
+                android:layout_marginTop="1dp"
                 app:srcCompat="@drawable/selectbar" />
 
             <TextView
@@ -39,7 +39,7 @@
                 android:layout_width="247dp"
                 android:layout_height="25dp"
                 android:layout_marginLeft="60dp"
-                android:layout_marginTop="7dp"
+                android:layout_marginTop="1dp"
                 android:text="#스트레스 #불면증 #학업 #직장업무"
                 android:textColor="@color/cardview_dark_background"
                 android:textSize="11sp"
@@ -75,8 +75,8 @@
                     android:id="@+id/minilayout1"
                     android:layout_width="88dp"
                     android:layout_height="27.5dp"
-                    android:layout_marginTop="20px"
                     android:layout_marginLeft="52px"
+                    android:layout_marginTop="20px"
                     android:background="@layout/consult_mainbutton">
 
                     <LinearLayout
@@ -97,9 +97,9 @@
                             android:id="@+id/textView8"
                             android:layout_width="45dp"
                             android:layout_height="26dp"
+                            android:layout_marginLeft="6dp"
                             android:layout_weight="1"
                             android:fontFamily="sans-serif-black"
-                            android:layout_marginLeft="6dp"
                             android:text="베스트추천"
                             android:textColor="@color/white"
                             android:textSize="9sp"
@@ -182,8 +182,8 @@
                             <ImageView
                                 android:id="@+id/imageView3"
                                 android:layout_width="32dp"
-                                android:layout_marginLeft="20dp"
                                 android:layout_height="12dp"
+                                android:layout_marginLeft="20dp"
                                 android:layout_weight="1"
                                 app:srcCompat="@drawable/star" />
 
@@ -361,7 +361,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:orientation="vertical"/>
+                    android:orientation="vertical" />
 
             </LinearLayout>
         </LinearLayout>
@@ -650,9 +650,9 @@
                         <Button
                             android:id="@+id/detail_consult3"
                             android:layout_width="50dp"
+                            android:layout_height="20dp"
                             android:layout_marginLeft="50dp"
                             android:layout_marginRight="10dp"
-                            android:layout_height="20dp"
                             android:layout_weight="1"
                             android:background="#6DCEAC"
                             android:text="자세히"
