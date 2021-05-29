@@ -2,6 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.mindvaccine_demo">
 
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -11,7 +12,7 @@
         android:theme="@style/Theme.MindVaccineDemo">
         <activity android:name=".MainActivity2" />
         <activity android:name=".Consulting2Fragment" /> <!-- <meta-data -->
-        <!-- android:nㅎame="com.google.android.actions" -->
+        <!-- android:name="com.google.android.actions" -->
         <!-- android:resource="@xml/actions" /> -->
         <activity
             android:name=".MainActivity"
@@ -22,6 +23,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <service android:name=".ServiceRoutine"/>
     </application>
+
+
 
 </manifest>
