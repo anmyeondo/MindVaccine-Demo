@@ -11,7 +11,7 @@
         android:theme="@style/Theme.MindVaccineDemo">
         <activity android:name=".MainActivity2" />
         <activity android:name=".Consulting2Fragment" /> <!-- <meta-data -->
-        <!-- android:nㅎame="com.google.android.actions" -->
+        <!-- android:name="com.google.android.actions" -->
         <!-- android:resource="@xml/actions" /> -->
         <activity
             android:name=".MainActivity"
